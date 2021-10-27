@@ -2,6 +2,10 @@ import java.lang.System;
 import java.util.List;
 import java.util.ArrayList;
 
+/// MEDIUM ///
+
+// generate a list of possible valid paranthesis with the number of pairs given
+// this program is written using back tracking algo
 class Question22 {
 
     public static void main(String[] args) {
@@ -9,7 +13,7 @@ class Question22 {
     }
 
     public static List<String> generateParenthesis(int n) {
-        List<String> result = new ArrayList();
+        List<String> result = new ArrayList<String>();
         backtrack(result, 0, 0, n, "");
         return result;
 

@@ -1,6 +1,8 @@
 import java.lang.System;
 import java.util.Arrays;
 
+//// EASY ////
+// finding the next greatest letter
 class Question744 {
     public static void main(String[] args) {
         char[] input = { 'a', 'c', 'd' };

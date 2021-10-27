@@ -3,8 +3,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-/// MEDIUM ///
-class ThreeSum {
+// MEDIUM //
+class Question15 {
     // public static int result = 0;
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ class ThreeSum {
         List<List<Integer>> result = new LinkedList<>();
 
         Arrays.sort(nums);
-        // looping through
+        // looping through nums array leaving last 2 elements
         for (int i = 0; i < nums.length - 2; i++) {
             if (i == 0 || (i > 0 && nums[i] != nums[i - 1])) {
                 int low = i + 1;
