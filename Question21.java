@@ -1,3 +1,6 @@
+//// EASY ////
+
+//// Merge sorted arrays /////
 public class Question21 {
     public static void main(String[] args) {
         ListNode input1 = null;
